@@ -14,11 +14,11 @@
 // ===================================== Globals =================================================
 
 // Constants
-#define NEUTRAL_SERVO_ANGLE = 90;
-#define MAX_PIVOT_ANGLE = 85;
-#define MAX_LIFT_DOWNWARDS_ANGLE = 26;
-#define MAX_LIFT_UPWARDS_ANGLE = 60;
-#define MAX_DISPLACEMENT_FROM_CENTER_OF_CAMERA = 250;
+#define NEUTRAL_SERVO_ANGLE 90
+#define MAX_PIVOT_ANGLE 85
+#define MAX_LIFT_DOWNWARDS_ANGLE 26
+#define MAX_LIFT_UPWARDS_ANGLE 60
+#define MAX_DISPLACEMENT_FROM_CENTER_OF_CAMERA 250
 
 // Servos used
 Servo servo1; // Front Left  Pivot Servo
