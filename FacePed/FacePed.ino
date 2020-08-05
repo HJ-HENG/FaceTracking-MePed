@@ -13,6 +13,13 @@
 
 // ===================================== Globals =================================================
 
+// Constants
+#define NEUTRAL_SERVO_ANGLE = 90;
+#define MAX_PIVOT_ANGLE = 85;
+#define MAX_LIFT_DOWNWARDS_ANGLE = 26;
+#define MAX_LIFT_UPWARDS_ANGLE = 60;
+#define MAX_DISPLACEMENT_FROM_CENTER_OF_CAMERA = 250;
+
 // Servos used
 Servo servo1; // Front Left  Pivot Servo
 Servo servo2; // Front Left  Lift  Servo
@@ -22,13 +29,6 @@ Servo servo5; // Back  Right Pivot Servo
 Servo servo6; // Back  Right Lift  Servo
 Servo servo7; // Front Right Pivot Servo
 Servo servo8; // Front Right Lift  Servo
-
-// Detault position of the servo
-int NEUTRAL_SERVO_ANGLE = 90;
-int MAX_PIVOT_ANGLE = 85;
-int MAX_LIFT_DOWNWARDS_ANGLE = 26;
-int MAX_LIFT_UPWARDS_ANGLE = 60;
-int MAX_DISPLACEMENT_FROM_CENTER_OF_CAMERA = 250;
 
 // ====================================== Setup ==================================================
 
